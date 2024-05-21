@@ -1,0 +1,502 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    text-transform: capitalize;
+}
+header, section, nav, .sec1 div, .no, .sec8 .subdiv, .sec9 div, footer{
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+header{
+    color: white;
+}
+header::before{
+    content: '';
+    color: white;
+    background: url(images/headerbg.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin-bottom: 71px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    opacity: 0.95
+    
+    ;
+}
+nav img{
+    width: 418px;
+    position: relative;
+    padding-top: 35px;
+}
+header h1{
+    padding: 152.84px 0 57px 0;
+    font-size: 119.15px;
+    font-weight: 900;
+    line-height: 132.8px;
+    letter-spacing: -0.03em;
+    margin: 0;
+    position: relative;
+}
+header h2{
+    width: 1000px;
+    position: relative;
+    margin: 0;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    padding-bottom: 47px;
+    text-align: center;    
+}
+header p{ 
+    width: 1007px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.03em;
+    padding-bottom: 35px;
+    text-align: center;    
+    margin: 0;
+    position: relative;
+}
+.sec1 h1{
+    padding: 0;
+    margin-bottom: 69px;
+    text-align: center;
+    font-size: 90.91px;
+    font-weight: 900;
+    line-height: 101.33px;
+    letter-spacing: -0.03em;
+}
+.sec1 button{
+    font-family: "Montserrat";
+    font-size: 48.7px;
+    font-weight: 700;
+    letter-spacing: -0.03em;    
+    color: #5DBC39;
+    margin: 92px 0 192px 0;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding: 30px 95px;
+    border-radius: 108.35px;
+}
+.sec1 img{
+    z-index: 2;
+}
+.bottom{
+    position: absolute;
+    bottom: -19px;
+    z-index: 1 !important;
+}
+.sec2 h1{
+    margin: 0;
+    text-align: center;
+    color: #5DBC39;
+    font-size: 90.91px;
+    font-weight: 900;
+    line-height: 101.33px;
+    letter-spacing: -0.03em;    
+}
+.sec2 p{
+    width: 956px;
+    color: #232323;
+    padding: 0 180px;
+    font-size: 29.73px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: center;    
+}
+.sec3 p{
+    width: 1226px;
+    color: #232323;
+    font-size: 39.73px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: center;    
+    padding: 0 17px;
+}
+.sec3 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec3 a{
+    color: #282828;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: -0.03em;
+    text-align: center;    
+    text-decoration: none;
+    margin-left: 15px;
+}
+.sec3{
+    padding-bottom: 120px;
+}
+.sec4{
+    background-color: #F6F6F6;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 250px 0;
+}
+.sec4 h2{
+    font-size: 37.63px;
+    font-weight: 800;
+    line-height: 64.44px;
+    letter-spacing: -0.03em;
+    text-align: center;    
+    margin: 0;
+}
+.sec4 h1{
+    color: #43AC44;
+    margin: 10px 0 65px 0;
+    font-size: 107.63px;
+    font-weight: 900;
+    line-height: 64.44px;
+    letter-spacing: -0.03em;
+    text-align: center;    
+}
+.sec4 div, .sec4{
+    position: relative;
+}
+.box h1{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: -0.03em;
+    text-align: center;    
+    margin: 0;
+}
+.box p{
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    color: #121212;    
+}
+.sec4 .box{
+    position: absolute;
+}
+.sec5 button, .button{
+    border: none;
+    cursor: pointer;
+    border-radius: 115.02px;
+    background: #D20000;
+    color: white;
+    font-size: 51.69px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    text-align: center;     
+    padding: 25px 125px;
+}
+.sec5 p, .para{
+    font-size: 29.98px;
+    font-weight: 800;
+    line-height: 28.68px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #121212;
+}
+.sec5 h1{
+    color: #0B9443;
+    text-transform: uppercase;
+    width: 618px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58.51px;
+    text-align: center;    
+}
+.no h1{
+    width: 400px;
+    color: #0B9443;
+    font-size: 169px;
+    font-weight: 900;
+    line-height: 78px;
+    text-align: center;    
+    border-left: 1px solid #D4D3D3;
+    border-right: 1px solid #D4D3D3;
+    margin: 210px;
+}
+.no div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.no div p{
+    margin: 10px 0;
+    width: 397px;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 35.35px;
+    text-align: center;    
+    text-transform: uppercase;
+    letter-spacing: normal;
+}
+.no .a{
+    border-bottom: 1px solid #D4D3D3;
+    top: 0;
+    padding-bottom: 28px;
+}
+.no .b{
+    border-bottom: 1px solid #D4D3D3;
+    top: 13%;
+    left: -25%;
+    padding-bottom: 60px;
+}
+.no .c{
+    border: none;
+    top: 56%;
+    left: -25%;
+}
+.no .d{
+    border-top: 1px solid #D4D3D3;
+    padding-top: 28px;
+    bottom: -17px;
+}
+.no .e{
+    top: 55%;
+    right: -25%;
+}
+.no .f{
+    border-bottom: 1px solid #D4D3D3;
+    top: 13%;
+    right: -25%;
+    padding-bottom: 60px;
+}
+.sec6 h2{
+    width: 900px;
+    text-align: center;
+    padding-top: 81px;
+    font-size: 55.97px;
+    font-weight: 800;
+    line-height: 64.44px;
+    letter-spacing: -0.03em;
+    margin: 0;
+}
+.sec6 h1{
+    margin: 0;
+    font-size: 107.63px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: -0.03em;
+    color: #43AC44;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+.sec6 h3, .head{
+    margin: 20px 0 0 0;
+    text-transform: uppercase;
+    width: 493px;
+    text-align: center;
+    font-size: 48.58px;
+    font-weight: 800;
+    letter-spacing: -0.03em;    
+}
+.sec6 h3 span, .head span, .span{
+    text-transform: uppercase;
+    color: #43AC44;
+    font-size: 64.58px;
+    font-weight: 900;
+    line-height: 38.67px;
+    letter-spacing: -0.03em;    
+}
+.span{
+    margin: 10px 0 47px 0;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    line-height: 58px;
+}
+.head{
+    width: 383px;
+    margin: 0;
+}
+.sec9 .head{
+    width: 653px;
+}
+
+.sec9 h1 span{
+    margin-top: 20px;
+}
+.sec6 p{
+    margin: 10px 0 0 0;
+    color: #232323;
+    width: 1026px;
+    font-size: 29.73px;
+    font-weight: 600;
+    line-height: 52.5px;
+    letter-spacing: -0.03em;
+    text-align: center;    
+}
+.sec7 p{
+    margin: 10px 0 50px 0;
+    width: 1142px;
+    font-size: 43.11px;
+    font-weight: 600;
+    line-height: 52.55px;
+    letter-spacing: -0.03em;
+    text-align: center;    
+    color: #232323;
+}
+.sec7 p span{
+    color: #43AC44;
+    font-size: 43.11px;
+    font-weight: 800;
+    line-height: 52.55px;
+    letter-spacing: -0.03em;
+    text-align: center;    
+}
+.sec8 h2{
+    text-transform: uppercase;
+    color: #0B9443;
+    margin: 102px 0 15px 0;
+    width: 459px;
+    font-size: 46.73px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: center;    
+}
+.sec8 p{
+    margin: 0 0 60px 0 ;
+    width: 1126px;
+    text-transform: capitalize;
+    font-size: 29.73px;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    text-align: center;    
+}
+.sec8 p span{
+    color: #0B9443;
+    font-size: 29.73px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    text-align: center;    
+}
+.sec8 div h1{
+    padding-top: 55px;
+    text-transform: uppercase;
+    font-size: 64.58px;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    text-align: left;    
+    margin: 0;
+}
+.sec8 div p{
+    margin: 0;
+    width: 492px;
+    font-size: 29.73px;
+    font-weight: 600;
+    line-height: 46.5px;
+    letter-spacing: -0.03em;
+    text-align: left;    
+}
+.sec8 div span{
+    color: #43AC44;
+    font-size: 35.73px;
+    font-weight: 800;
+    line-height: 46.5px;
+    letter-spacing: -0.03em;
+    text-align: left;    
+}
+.sec8 div span1{
+    color: #0B9443;
+    font-size: 35.73px;
+    font-weight: 800;
+    line-height: 46.5px;
+    letter-spacing: -0.03em;
+    text-align: left;    
+}
+.sec8 div{
+    position: relative;
+    right: -72px;
+    display: flex;
+    gap: 69px;
+    margin-top: 75.33px;
+    justify-content: center;
+}
+.sec8 .subdiv p{
+    margin: 0;
+    width: 701px;
+    color: #232323;
+    font-size: 29.73px;
+    font-weight: 600;
+    line-height: 41.29px;
+    letter-spacing: -0.03em;
+    text-align: center;    
+}
+.sec8 .subdiv p span{
+    font-size: 29.73px;
+    font-weight: 800;
+    line-height: 41.29px;
+    letter-spacing: -0.03em;
+}
+.sec8 .subdiv p span1{
+    color: #232323;
+    font-size: 38.73px;
+    font-weight: 800;
+    line-height: 50.5px;
+    letter-spacing: -0.03em;
+}
+.sec9 .button{
+    font-size: 34.56px;
+    padding: 29px 108px;
+}
+.para{
+    font-size: 23px;
+}
+.sec9{
+    flex-direction: row;
+    padding: 270px 0 54px 0;
+    gap: 86px;
+}
+footer p{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32.5px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #2D2D2D;   
+    position: relative;
+    left: 73px; 
+}
+
+
+
+
+
+
+@media screen and (max-width:1540px) {
+    .sec1 img{
+        width: 1100px;
+    }
+    .bottom{
+        width: 520px !important;
+    }
+    .sec1 button{
+        font-size: 34px;
+    }
+    header h1{
+        font-size: 100px;
+    }
+    .sec1 h1{
+        font-size: 85px;
+    }
+}
